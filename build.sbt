@@ -19,5 +19,6 @@ scalacOptions ++= Seq(
 )
 libraryDependencies ++= Seq(
   "org.typelevel" %% "cats-effect" % "1.3.0",
+  "io.github.timwspence" %% "cats-stm" % "0.4.0",
   "eu.timepit"    %% "refined"     % "0.9.6"
 )
